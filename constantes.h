@@ -1,0 +1,15 @@
+#ifndef DEF_CONSTANTES
+#define DEF_CONSTANTES
+
+    #define TAILLE_BLOC         34
+    #define NB_BLOCS_LARGEUR    16
+    #define NB_BLOCS_HAUTEUR    12
+    #define HAUTEUR_AIDE        122
+    #define NB_BLOCS            NB_BLOCS_LARGEUR * NB_BLOCS_HAUTEUR
+    #define LARGEUR_FENETRE     TAILLE_BLOC * NB_BLOCS_LARGEUR
+    #define HAUTEUR_FENETRE     TAILLE_BLOC * NB_BLOCS_HAUTEUR + HAUTEUR_AIDE
+
+    enum {HAUT, BAS, GAUCHE, DROITE};
+    enum {MUR, CAISSE, OBJECTIF, CAISSE_OK, MARIO, VIDE};
+
+#endif
